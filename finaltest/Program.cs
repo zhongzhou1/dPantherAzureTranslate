@@ -8,7 +8,7 @@ using RestSharp;
 using System.Net;
 
 /// <summary>
-/// This project was created by using Microsofte Speechservice and Translator API to get output audio file with target language
+/// This project was created by using Microsoft Speechservice and Translator API to translate audio file and get output audio file with target language
 /// By Zhongzhou, Keven, 12/27/2019
 /// </summary>
 
