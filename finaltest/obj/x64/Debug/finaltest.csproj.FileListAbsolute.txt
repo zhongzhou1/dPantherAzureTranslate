@@ -1,0 +1,16 @@
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\Microsoft.CognitiveServices.Speech.core.dll
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\finaltest.exe.config
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\finaltest.exe
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\finaltest.pdb
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\RestSharp.dll
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\zhli\source\repos\finaltest\finaltest\bin\x64\Debug\RestSharp.xml
+C:\Users\zhli\source\repos\finaltest\finaltest\obj\x64\Debug\finaltest.csprojAssemblyReference.cache
+C:\Users\zhli\source\repos\finaltest\finaltest\obj\x64\Debug\finaltest.csproj.CoreCompileInputs.cache
+C:\Users\zhli\source\repos\finaltest\finaltest\obj\x64\Debug\finaltest.csproj.CopyComplete
+C:\Users\zhli\source\repos\finaltest\finaltest\obj\x64\Debug\finaltest.exe
+C:\Users\zhli\source\repos\finaltest\finaltest\obj\x64\Debug\finaltest.pdb
