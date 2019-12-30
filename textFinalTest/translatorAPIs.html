@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	
+<div id="div1"><h2></h2></div>
+
+
+    Input Text: <input type="text" id="inputtext" value="enter your input here:"/>
+	
+	Target Languate： 
+	<select name="targetLanguages" id="selLang">
+	  <option value="en">English</option>
+	  <option value="zh-Hans">Chinese Simplified</option>
+	  <option value="es">Spanish</option>
+	  
+	</select>
+    <input type="button" onClick="test()" id="btnTrans" value="translate"/><br />
+    Translate Result:<input type="text" id="result" value="test"/>
+</body>
+<script>
+ var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=zh-Hans",
+  "method": "POST",
+  "headers": {
+    "Ocp-Apim-Subscription-Key": "56f84c684712426291124cb3f79284ef",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.15.2",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "0aeabcc6-2e07-40d5-bf03-406b47f5fa89,9d990bac-977d-41f3-ab3e-7ae233ef405f",
+    "Host": "api.cognitive.microsofttranslator.com",
+    "Accept-Encoding": "gzip, deflate",
+    "Content-Length": "38",
+    "Connection": "keep-alive",
+    "cache-control": "no-cache"
+  },
+  "data": "[{'Text':'Hello, what is your name?'}]"
+};
+var settings_detect = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://api.cognitive.microsofttranslator.com/detect?api-version=3.0",
+  "method": "POST",
+  "headers": {
+    "Ocp-Apim-Subscription-Key": "56f84c684712426291124cb3f79284ef   ",
+    "Content-Type": "application/json",    
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "3614edc9-98bd-4e4d-af5c-c5b4d77b730e,eb88833b-9abd-479c-a12e-db03ddeedd62",    
+    "cache-control": "no-cache"
+  },
+  "data": "[{'Text':'test'}]"
+}
+var settings_break = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://api.cognitive.microsofttranslator.com/breaksentence?api-version=3.0",
+  "method": "POST",
+  "headers": {
+    "Ocp-Apim-Subscription-Key": "56f84c684712426291124cb3f79284ef",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.15.2",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "fe16d3ff-68d2-4a9c-a872-4d0d301d9f4e,d604a8df-6e3c-42f4-bfe0-18eeb3170c62",
+    "Host": "api.cognitive.microsofttranslator.com",
+    "Accept-Encoding": "gzip, deflate",
+    "Content-Length": "59",
+    "Connection": "keep-alive",
+    "cache-control": "no-cache"
+  },
+  "data": "[{'Text':'test'}]"
+}
+//add enter key down event
+// Get the input field
+var input = document.getElementById("inputtext");
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("btnTrans").click();
+  }
+});
+string_chop =  function(str, size){
+      if (str == null) return [];
+      str = String(str);
+      size = ~~size;
+return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+}
+function test(){
+	//get the selected language;
+	var e = document.getElementById("selLang");
+	var targetLang = e.options[e.selectedIndex].value;
+	
+	settings.url = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=" + targetLang;
+	
+	//detect the language first;
+	settings_detect.data = "[{'Text':'"+$("#inputtext").val()+"'}]"; 
+	
+	$.ajax(settings_detect).done(function (response) {
+	  //console.log(response);
+	  var detectedLang = response[0].language;
+	  settings.url = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from="+detectedLang+"&to=" + targetLang;
+	  
+	  settings.data = "[{'Text':'"+$("#inputtext").val()+"'}]";
+	  $.ajax(settings).done(function (response) {
+		  //console.log(response);
+		  //alert(response);
+		  $("#result").val(response[0].translations[0].text);
+		  
+		  settings_break.data = "[{'Text':'"+response[0].translations[0].text+"'}]";
+		  
+		  $.ajax(settings_break).done(function (response) {
+			 //console.log(response);
+			 //loop add the sentense after the result iput;
+			 var lengthIndi = 0;
+			 if(response[0].sentLen.length>0){ 
+				
+				 for(var i = 0; i<response[0].sentLen.length;i=i + sentLen){
+					$("#result").after("<br />" + string_chop($("#result").val(),response[0].sentLen[i]));
+				 
+				 
+				 }
+				 
+			 }
+			});
+		});
+	});
+}
+	  
+	
+    
+</script>
+</html>
