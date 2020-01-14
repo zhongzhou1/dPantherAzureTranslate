@@ -115,13 +115,13 @@ To get a local copy up and running follow these simple steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-1. Replace the string YourSubscriptionKey with your subscription key (.Replace the string YourServiceRegion with the region associated with your subscription (for example, westus for the free trial subscription).
-![key region](screenshots/keyregion.PNG)
+1. Replace the string YourSubscriptionKey with your subscription key.Replace the string YourServiceRegion with the region associated with your subscription (for example, westus for the free trial subscription).
+
 
 2. 
 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 
 
