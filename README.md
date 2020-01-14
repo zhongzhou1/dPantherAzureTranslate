@@ -166,11 +166,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Zhongzhou Li  - zli049@fiu.edu
-
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+Project Link: [https://github.com/zhongzhou1](https://github.com/zhongzhou1)
 
 Boyuan Guan  - bguan@fiu.edu
-
+Project Link: [https://github.com/Keven1894](https://github.com/Keven1894)
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
