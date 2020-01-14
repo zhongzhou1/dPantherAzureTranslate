@@ -79,7 +79,8 @@ The Florida International University (FIU) Libraries led the testing and explora
 
 ### Built With
 
-* [Microsoft.NET](Microsoft.NET)
+* [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com//vs/)
+* [python 3.6](https://www.python.org/downloads/)
 
 
 
