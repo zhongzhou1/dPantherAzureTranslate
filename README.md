@@ -151,11 +151,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Zhongzhou Li - []() - zli049@fiu.edu
+Zhongzhou Li  - zli049@fiu.edu
 
 Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
 
-Boyuan Guan
+Boyuan Guan  - bguan@fiu.edu
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
@@ -171,7 +171,7 @@ Boyuan Guan
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/zhongzhou1/dPantherAzureTranslate/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
