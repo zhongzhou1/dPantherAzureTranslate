@@ -116,7 +116,7 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 1. Replace the 2 string YourSubscriptionKey with your subscription key and 2 string YourServiceRegion with the region associated of Speech Resource.(for example, westus for the free trial subscription).
-![keyregion](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/keyregion.png)
+![keyregion1](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/keyregion1.png)
 ![keyregion2](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/keyregion2.png)
 
 2. Replace the string YourSubscriptionKey with your subscription key of Translator Text API. 
@@ -133,7 +133,7 @@ To get a local copy up and running follow these simple steps.
 6. At the end, you can see the text is converted to speech, and saved in the audio file specified.
 ![texttospeech](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/texttospeech.png)
 
-
+# In this project, we used RecognizeOnceAsync() method to start speech recognition, this method returns only a single utterance, please use StartContinuousRecognitionAsync() method for long-running multi-utterance recognition.
 
 
 
