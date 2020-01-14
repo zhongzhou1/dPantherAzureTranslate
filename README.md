@@ -90,7 +90,7 @@ The Florida International University (FIU) Libraries led the testing and explora
 
 To get a local copy up and running follow these simple steps.
 1. Creat an Azure Speech Resource to get your subscription key and region.
-2. Creat an Azure Translator Text to get subscription key.
+2. Creat an Azure Translator Text API to get subscription key.
 2. Open Visual Studio 2019, install Speech SDK, Newtonsoft.Json and RestSharp to run this project.
 
 ### Prerequisites
@@ -115,10 +115,23 @@ To get a local copy up and running follow these simple steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-1. Replace the string YourSubscriptionKey with your subscription key.Replace the string YourServiceRegion with the region associated with your subscription (for example, westus for the free trial subscription).
+1. Replace the 2 string YourSubscriptionKey with your subscription key and 2 string YourServiceRegion with the region associated of Speech Resource.(for example, westus for the free trial subscription).
 ![keyregion](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/keyregion.png)
+![keyregion2](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/keyregion2.png)
 
-2. 
+2. Replace the string YourSubscriptionKey with your subscription key of Translator Text API. 
+![key](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/key.png)
+
+3. Replace all path with input and output.
+
+4. Start the project, the audio file will sent to the Speech service, then you can see in the console.
+![recognized](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/recognized.png)
+
+5. At next step, you can see the translate results with your target language in the console.
+![speechtotext](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/speechtotext.png)
+
+6. At the end, you can see the text is converted to speech, and saved in the audio file specified.
+![texttospeech](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/texttospeech.png)
 
 
 
