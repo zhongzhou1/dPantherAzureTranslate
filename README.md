@@ -90,6 +90,7 @@ The Florida International University (FIU) Libraries led the testing and explora
 
 To get a local copy up and running follow these simple steps.
 1. Creat an Azure Speech Resource to get your subscription key and region.
+2. Creat an Azure Translator Text to get subscription key.
 2. Open Visual Studio 2019, install Speech SDK, Newtonsoft.Json and RestSharp to run this project.
 
 ### Prerequisites
@@ -114,8 +115,11 @@ To get a local copy up and running follow these simple steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+1. Replace the string YourSubscriptionKey with your subscription key (.Replace the string YourServiceRegion with the region associated with your subscription (for example, westus for the free trial subscription).
+![alt test](screenshots/key region.PNG)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+2. 
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
