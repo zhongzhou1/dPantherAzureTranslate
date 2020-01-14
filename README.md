@@ -116,7 +116,7 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 1. Replace the string YourSubscriptionKey with your subscription key (.Replace the string YourServiceRegion with the region associated with your subscription (for example, westus for the free trial subscription).
-![alt test](screenshots/key region.PNG)
+![key region](screenshots/keyregion.PNG)
 
 2. 
 
