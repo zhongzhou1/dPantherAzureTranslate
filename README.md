@@ -94,22 +94,21 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+1. Creat an Azure Speech Resource to get your subscription key and region.
+2. Download Visual Studio 2019.
+3. Colne this project and choose Debug to get new with x64 active solution platform.
 
 ### Installation
  
-1. Clone the repo
-```sh
-git clone https://github.com/github_username/repo.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
+1. In the Solituon Explorer of Visual Studio 2019, right-click the project, and select Manage Nuget Packages.
+2. In the upper-right corner, find the Package Source drop-down box, and make sure that nuget.org is selected.
+3. In the upper-left corner, select Browse.
+4. In the search box, type Microsoft.CognitiveServices.Speech and select Enter.
+5. From the search results, select the Microsoft.CognitiveServices.Speech package, and then select Install to install the latest stable version.
+6. Accept all agreements and licenses to start the installation.
+7. In the search box, type Newtonsoft.Json to install the latest stable version.
+8. In the search box, type RestSharp to install the latest stable version.
+
 
 
 
@@ -122,10 +121,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
 
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
 
 
 
