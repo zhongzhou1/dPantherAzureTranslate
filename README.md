@@ -80,8 +80,7 @@ The Florida International University (FIU) Libraries led the testing and explora
 ### Built With
 
 * [Microsoft.NET](Microsoft.NET)
-* []()
-* []()
+
 
 
 
@@ -89,6 +88,8 @@ The Florida International University (FIU) Libraries led the testing and explora
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
+1. Creat an Azure Speech Resource to get your subscription key and region.
+2. Open Visual Studio 2019, install Speech SDK, Newtonsoft.Json and RestSharp to run this project.
 
 ### Prerequisites
 
@@ -150,11 +151,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Zhongzhou Li - []() - zli049@fiu.edu
 
 Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
 
-
+Boyuan Guan
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
