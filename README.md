@@ -122,7 +122,7 @@ To get a local copy up and running follow these simple steps.
 2. Replace the string YourSubscriptionKey with your subscription key of Translator Text API. 
 ![key](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/key.png)
 
-3. Replace all path with input and output.
+3. Replace all path with audio file input and output.
 
 4. Start the project, the audio file will sent to the Speech service, then you can see in the console.
 ![recognized](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/recognized.png)
