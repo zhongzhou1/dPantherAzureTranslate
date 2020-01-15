@@ -116,7 +116,7 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 1. Replace the 2 string YourSubscriptionKey with your subscription key and 2 string YourServiceRegion with the region associated of Speech Resource.(for example, westus for the free trial subscription).
-![Keyregion1](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/keyregion1.png)
+![Keyregion](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/Keyregion.png)
 ![keyregion2](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/keyregion2.png)
 
 2. Replace the string YourSubscriptionKey with your subscription key of Translator Text API. 
