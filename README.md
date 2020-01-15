@@ -173,9 +173,7 @@ Project Link: [https://github.com/Keven1894](https://github.com/Keven1894)
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* This project has been made possible through the generous support of the Society of American Archivists (SAA) Foundation 2018-2019 Strategic Growth Grant award.
 
 
 
