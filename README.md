@@ -124,8 +124,11 @@ You can find all codes at **Program.cs** class.
 ![key](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/key.png)
 
 3. Replace all path of input and output, you can find codes in the **Program.cs**. 
+
 Change audio file input path at line 57 **using (var audioInput = AudioConfig.FromWavFileInput(@"Path.wav"))**).
+
 Change text file output path at line 124 **string path1= @"path" + strfilename;**.
+
 Change converted audio file ouput path at line 158 **var fileName = @"path" + "name" + ".wav";**.
 
 
