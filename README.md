@@ -123,13 +123,7 @@ You can find all codes at **Program.cs** class.
 2. Replace the string YourSubscriptionKey with your subscription key of Translator Text API in the **Program.cs**. 
 ![key](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/key.png)
 
-3. Replace all path of input and output, you can find codes in the **Program.cs**. 
-
-  Change audio file input path at line 57 **using (var audioInput = AudioConfig.FromWavFileInput(@"Path.wav"))**).
-
-  Change text file output path at line 124 **string path1= @"path" + strfilename;**.
-
-  Change converted audio file ouput path at line 158 **var fileName = @"path" + "name" + ".wav";**.
+3. Replace all path of input and output, you can find codes in the **Program.cs**.  Change audio file input path at line 57 **using (var audioInput = AudioConfig.FromWavFileInput(@"Path.wav"))**).  Change text file output path at line 124 **string path1= @"path" + strfilename;**.  Change converted audio file ouput path at line 158 **var fileName = @"path" + "name" + ".wav";**.
 
 
 4. Start the project, the audio file will sent to the Speech service, then you can see in the console.
@@ -162,7 +156,7 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
+  
 <!-- LICENSE -->
 ## License
 
