@@ -114,6 +114,7 @@ To get a local copy up and running follow these simple steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+### speechfinaltest
 You can find all codes at **Program.cs** class.
 
 1. Replace the 2 string YourSubscriptionKey with your subscription key and 2 string YourServiceRegion with the region associated of Speech Resource in the **Program.cs**.
@@ -139,6 +140,15 @@ You can find all codes at **Program.cs** class.
 ![texttospeech](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/texttospeech.png)
 
 In this project, we used **RecognizeOnceAsync()** method to start speech recognition, this method returns only a single utterance, please use **StartContinuousRecognitionAsync()** method for long-running multi-utterance recognition.
+
+### textFinalTest
+You can find all codes in the **translatorAPIs.html**
+
+1. Replace the string key at line32 **"Ocp-Apim-Subscription-Key": "key"** with Azure Translator Text API key.
+2. Open .html file, then you can input text and select target language then click translate button to translate.
+
+In this case we use "English","Chinese","Spanish" as default translate languages, you can also find more language support for Translator Text API: https://docs.microsoft.com/en-us/azure/cognitive-services/Translator/language-support
+
 
 
 
