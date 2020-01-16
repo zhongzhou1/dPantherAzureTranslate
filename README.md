@@ -136,7 +136,7 @@ You can find all codes at **Program.cs** class.
 ![speechtotext](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/speechtotext.png)
 
 6. At the end, you can see the text is converted to speech, and saved in the audio file specified.
-![texttospeech](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/texttospeech.jpg)
+![texttospeech](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/texttospeech.png)
 
 In this project, we used **RecognizeOnceAsync()** method to start speech recognition, this method returns only a single utterance, please use **StartContinuousRecognitionAsync()** method for long-running multi-utterance recognition.
 
