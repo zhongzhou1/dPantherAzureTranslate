@@ -116,14 +116,14 @@ To get a local copy up and running follow these simple steps.
 ## Usage
 You can find all codes at **Program.cs** class.
 
-1. Replace the 2 string YourSubscriptionKey with your subscription key and 2 string YourServiceRegion with the region associated of Speech Resource in the **Program.cs**.(for example, westus for the free trial subscription).
+1. Replace the 2 string YourSubscriptionKey with your subscription key and 2 string YourServiceRegion with the region associated of Speech Resource in the **Program.cs**.
 ![Keyregion](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/Keyregion.png)
 ![keyregion1](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/Keyregion1.png)
 
 2. Replace the string YourSubscriptionKey with your subscription key of Translator Text API in the **Program.cs**. 
 ![key](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/key.png)
 
-3. Replace all path with audio file input and output, you can find all path in the **Program.cs**. 
+3. Replace all path of input and output, you can find codes in the **Program.cs**. 
 Change audio file input path at line 57 **using (var audioInput = AudioConfig.FromWavFileInput(@"Path.wav"))**).
 Change text file output path at line 124 **string path1= @"path" + strfilename;**.
 Change converted audio file ouput path at line 158 **var fileName = @"path" + "name" + ".wav";**.
