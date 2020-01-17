@@ -112,7 +112,9 @@ To get a local copy up and running follow these simple steps.
 8. In the search box, type RestSharp to install the latest stable version.
 9. From the menu bar, select Build > Configuration Manager. 
 10. In the Active solution platform frop-down box, select New. 
-11. In the Type or select the new platform frop-down box:  *If you are runing 64-bit Windows, select x64.  *If you are running 32-bit Windows, select x86
+11. In the Type or select the new platform frop-down box:
+  **If you are runing 64-bit Windows, select x64.  
+  **If you are running 32-bit Windows, select x86.
 
 #### PyCharm  
 1. At the upper-left corner of PyCharm, click "file" and choose “settings”.
