@@ -90,14 +90,15 @@ The Florida International University (FIU) Libraries led the testing and explora
 To get a local copy up and running follow these simple steps.
 1. Creat an Azure Speech Resource to get your subscription key and region.
 2. Creat an Azure Translator Text API to get subscription key.
-2. Open Visual Studio 2019, install Speech SDK, Newtonsoft.Json and RestSharp to run this project.
+3. Open Visual Studio 2019, install Speech SDK, Newtonsoft.Json and RestSharp to run speechfinaltest of this project.
+4. Open PyCharm, install youtube_dl and pafy to run DownloadMusicTracks of this project.
 
 ### Prerequisites
 
 1. Creat an Azure Speech Resource to get your subscription key and region.
 2. Download Visual Studio 2019.
-3. Colne this project and choose Debug to get new with x64 active solution platform.
-
+3. Colne this project and choose Debug to get new with x64 active solution platform to run .
+4. Dowmload PyCharm. 
 ### Installation
 
 #### Visual Studio 2019
@@ -109,11 +110,14 @@ To get a local copy up and running follow these simple steps.
 6. Accept all agreements and licenses to start the installation.
 7. In the search box, type Newtonsoft.Json to install the latest stable version.
 8. In the search box, type RestSharp to install the latest stable version.
+9. From the menu bar, select Build > Configuration Manager. 
+10. In the Active solution platform frop-down box, select New. 
+11. In the Type or select the new platform frop-down box:  *If you are runing 64-bit Windows, select x64.  *If you are running 32-bit Windows, select x86
 
-#### PyCharm
-1. In the upper-left corner, click file and choose settings.
-2. Choose project and click Project Interpreter.
-3. In the upper-right corner, select "+".
+#### PyCharm  
+1. At the upper-left corner of PyCharm, click "file" and choose “settings”.
+2. Choose project and click "Project Interpreter".
+3. In the upper-right corner of PyCharm, select "+".
 4. Search youtube_dl and pafy and click "Install Package" button to install.
 
 
@@ -121,9 +125,9 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 ### speechfinaltest
-You can find all codes at **Program.cs** class.
+You can find all codes at **Program.cs** class, run it in the Visual Studio 2019
 
-1. Replace the 2 string YourSubscriptionKey with your subscription key and 2 string YourServiceRegion with the region associated of Speech Resource in the **Program.cs**.
+1. Open Visual Studio 2019 and clone this project. Find **Program.cs** file then replace the 2 string YourSubscriptionKey with your subscription key and 2 string YourServiceRegion with the region associated of Speech Resource.
 ![Keyregion](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/Keyregion.png)
 ![keyregion1](https://github.com/zhongzhou1/dPantherAzureTranslate/blob/master/Pictures/Keyregion1.png)
 
@@ -156,7 +160,9 @@ You can find all codes in the **translatorAPIs.html**
 In this case we use "English","Chinese","Spanish" as default translate languages, you can also find more language support for Translator Text API: https://docs.microsoft.com/en-us/azure/cognitive-services/Translator/language-support
 
 ### DownloadMusicTracks
-You can find codes in the **MusicTracks.py**
+You can find codes in the **MusicTracks.py**, run it in the PyCharm.
+1. Double click Pycharm, and click "File" at upper-left corner of Pyharm.
+2. Click "open" button to open **MusicTracks.py**.
 
 In this case, we used youtube_dl tool to download, you can find supported sites: https://ytdl-org.github.io/youtube-dl/supportedsites.html
 
