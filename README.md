@@ -79,7 +79,7 @@ The Florida International University (FIU) Libraries led the testing and explora
 ### Built With
 
 * [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com//vs/)
-* [python 3.6](https://www.python.org/downloads/)
+* [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 
 
@@ -99,7 +99,8 @@ To get a local copy up and running follow these simple steps.
 3. Colne this project and choose Debug to get new with x64 active solution platform.
 
 ### Installation
- 
+
+#### Visual Studio 2019
 1. In the Solituon Explorer of Visual Studio 2019, right-click the project, and select Manage Nuget Packages.
 2. In the upper-right corner, find the Package Source drop-down box, and make sure that nuget.org is selected.
 3. In the upper-left corner, select Browse.
@@ -109,6 +110,11 @@ To get a local copy up and running follow these simple steps.
 7. In the search box, type Newtonsoft.Json to install the latest stable version.
 8. In the search box, type RestSharp to install the latest stable version.
 
+#### PyCharm
+1. In the upper-left corner, click file and choose settings.
+2. Choose project and click Project Interpreter.
+3. In the upper-right corner, select "+".
+4. Search youtube_dl and pafy and click "Install Package" button to install.
 
 
 
@@ -149,7 +155,10 @@ You can find all codes in the **translatorAPIs.html**
 
 In this case we use "English","Chinese","Spanish" as default translate languages, you can also find more language support for Translator Text API: https://docs.microsoft.com/en-us/azure/cognitive-services/Translator/language-support
 
+### DownloadMusicTracks
+You can find codes in the **MusicTracks.py**
 
+In this case, we used youtube_dl tool to download, you can find supported sites: https://ytdl-org.github.io/youtube-dl/supportedsites.html
 
 
 
